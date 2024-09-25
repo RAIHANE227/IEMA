@@ -1,0 +1,480 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-translate-customization" content="9f841e7780177523-3214ceb76f765f38-gc38c6fe6f9d06436-c">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>L’Institut Euro-Méditerranéen d’Algerie : Online Courses</title>
+
+    <!-- Favicon -->
+    <link href="img/1.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Custom Styles for Navbar and Sections -->
+    <style>
+        .navbar {
+            background-color: #ffffff; /* White background */
+            padding: 0.5rem 1rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            position: fixed; /* Fixed position for navbar */
+            top: 0;
+            width: 100%; /* Full width */
+            z-index: 1050; /* Ensure it stays on top of other elements */
+        }
+        .navbar-brand img {
+            height: 60px;
+        }
+        .navbar-nav .nav-link {
+            color: #333333; /* Dark text for nav links */
+            margin-right: 1rem;
+            font-size: 16px;
+            font-weight: 500;
+            position: relative;
+        }
+        .navbar-nav .nav-link:hover, .navbar-nav .nav-link.active {
+            color: #0033cc; /* Blue color for active and hovered links */
+            text-decoration: none;
+        }
+        .navbar-nav .nav-link.active::after {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: #0033cc; /* Blue underline for active links */
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+        }
+        .navbar-toggler {
+            border-color: #333333; /* Dark border for toggler */
+        }
+        .navbar-toggler-icon {
+            background-color: #333333; /* Dark icon for toggler */
+        }
+        .section {
+            position: fixed;
+            top: 70px; /* Adjusted to avoid overlapping the navbar */
+            left: 0;
+            width: 100%;
+            background-color: #ffffff; /* White background for section */
+            padding: 20px 0; /* Reduced padding */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: none; /* Initially hidden */
+            z-index: 1050; /* Make sure it appears above other elements */
+            border-top: 4px solid #0033cc; /* Blue border at top */
+            max-height: 300px; /* Limit height */
+            overflow-y: auto; /* Enable scrolling if content exceeds max-height */
+        }
+        .section .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .section h5 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: 600;
+            color: #0033cc; /* Dark blue color for headings */
+            padding-left: 20px;
+        }
+        .section ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        .section ul li {
+            margin-bottom: 10px;
+            padding-left: 25px;
+        }
+        .section ul li a {
+            color: #333333; /* Dark text for links */
+            text-decoration: none;
+        }
+        .section ul li a:hover {
+            color: #0033cc; /* Blue text on hover */
+        }
+        iframe {
+            width: 100%;
+            height: 450px;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+     
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <img src="img/1.png" alt="Logo">
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto">
+        
+              <a href="#" class="nav-link dropdown-toggle" id="quiSommesToggle">QUI SOMMES NOUS</a>
+                <a href="#" class="nav-link dropdown-toggle" id="formationsToggle">FORMATION</a>
+                  <!-- Navbar End 
+               <a href="#" class="nav-link dropdown-toggle" id="conseilToggle"></a>
+                <a href="testim.html" class="nav-item nav-link"> Événements</a>-->
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+               <a href="login.html" class="nav-item nav-link"><i ></i></a>
+                <a href="#" class="nav-item nav-link">
+                    <div id="google_translate_element"></div>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+  <!-- Formations Section Start -->
+  <div id="formationsSection" class="section">
+    <div class="container">
+        <h5>Executive education et formation professionnelle </h5>
+        <div class="row">
+            <div class="col-md-6">
+                <ul>
+                    <li><a href="Langues.html"> Langues  </a></li>
+                    <li><a href="Digital et culture digitale.html">Digital et culture digitale </a></li>
+                    <li><a href="Communication.html">Communication </a></li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul>
+                    <li><a href="Commerce et finance.html">Commerce et finance </a></li>
+                    <li><a href="Développement durable et transition énergétique.html">Développement durable et transition énergétique </a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </div>
+        </div>
+        <h5>Formation académique </h5>
+        <div class="row">
+            <div class="col-md-6">
+                <ul>
+                    <li><a href="#">Licence en sciences humaines et sociales </a></li>
+                    <li><a href="#">Licence en développement durable </a></li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Qui Sommes Nous Section Start -->
+    <div id="quiSommesSection" class="section">
+        <div class="container">
+            <h5>QUI SOMMES NOUS</h5>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul>
+                        <li><a href="index.html">Qui sommes nous ?</a></li>
+
+                        <li><a href="index.html">Mot de la fondatrice</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                        <li><a href="index.html">Nos valeurs et engagements</a></li>
+                        <li><a href="t.html">Équipe</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Qui Sommes Nous Section End -->
+
+    <!-- Conseil Section Start -->
+     <!-- Conseil Section Start 
+    <div id="conseilSection" class="section">
+        <div class="container">
+            <h5></h5>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul>
+                        <li><a href="#">Conseil des ministres</a></li>
+                        <li><a href="#">CONSEIL strategie</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                        <li><a href="#">Testimonial</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <!-- Conseil Section End -->
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var formationsToggle = document.getElementById('formationsToggle');
+            var quiSommesToggle = document.getElementById('quiSommesToggle');
+            var conseilToggle = document.getElementById('conseilToggle');
+            var formationsSection = document.getElementById('formationsSection');
+            var quiSommesSection = document.getElementById('quiSommesSection');
+            var conseilSection = document.getElementById('conseilSection');
+
+            formationsToggle.addEventListener('click', function () {
+                formationsSection.style.display = formationsSection.style.display === 'block' ? 'none' : 'block';
+                quiSommesSection.style.display = 'none';
+                conseilSection.style.display = 'none';
+            });
+
+            quiSommesToggle.addEventListener('click', function () {
+                quiSommesSection.style.display = quiSommesSection.style.display === 'block' ? 'none' : 'block';
+                formationsSection.style.display = 'none';
+                conseilSection.style.display = 'none';
+            });
+
+            conseilToggle.addEventListener('click', function () {
+                conseilSection.style.display = conseilSection.style.display === 'block' ? 'none' : 'block';
+                formationsSection.style.display = 'none';
+                quiSommesSection.style.display = 'none';
+            });
+
+            document.addEventListener('click', function (event) {
+                if (!formationsToggle.contains(event.target) && !formationsSection.contains(event.target)) {
+                    formationsSection.style.display = 'none';
+                }
+                if (!quiSommesToggle.contains(event.target) && !quiSommesSection.contains(event.target)) {
+                    quiSommesSection.style.display = 'none';
+                }
+                if (!conseilToggle.contains(event.target) && !conseilSection.contains(event.target)) {
+                    conseilSection.style.display = 'none';
+                }
+            });
+        });
+    </script>
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary py-5 mb-5 page-header">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 class="display-3 text-white animated slideInDown"><br>Contact</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a class="text-white" href="index.html">Accueil</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Contact</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+<!-- Contact Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <!-- يمكنك إضافة محتوى إضافي هنا إذا كنت ترغب -->
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <h2>Contactez-nous</h2>
+                <div class="p-4 border rounded" style="border-color: #090697; background-color: #f0f0f0;">
+                    <p class="mb-4" style="font-weight: bold; font-size: 18px; text-align: center;">
+                        Contactez-nous via les réseaux sociaux :
+                    </p>
+                    <div class="d-flex justify-content-center mb-3">
+                        <a href="https://www.facebook.com/INSTITUTEUROMEDALGER/?locale=fr_FR" target="_blank" class="me-3">
+                            <i class="fab fa-facebook fa-3x" style="color: #090697;"></i>
+                        </a>
+                        <a href="https://www.instagram.com/iemalger/" target="_blank" class="me-3">
+                            <i class="fab fa-instagram fa-3x" style="color: #090697;"></i>
+                        </a>
+                        <a href="https://www.tiktok.com" target="_blank" class="me-3">
+                            <i class="fab fa-tiktok fa-3x" style="color: #090697;"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="d-flex align-items-center mb-3 mt-4">
+                    <div class="d-flex align-items-center justify-content-center flex-shrink-0" style="width: 50px; height: 50px; background-color: #090697;">
+                        <i class="fa fa-map-marker-alt text-white"></i>
+                    </div>
+                    <div class="ms-3">
+                        <h5>Bureau</h5>
+                        <p class="mb-0">Cité 392 Logt Bd 19, entrée F.10, 35000</p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center mb-3">
+                    <div class="d-flex align-items-center justify-content-center flex-shrink-0" style="width: 50px; height: 50px; background-color: #090697;">
+                        <i class="fa fa-phone-alt text-white"></i>
+                    </div>
+                    <div class="ms-3">
+                        <h5>Mobile</h5>
+                        <p class="mb-0">+213 771 82 16 00</p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center">
+                    <div class="d-flex align-items-center justify-content-center flex-shrink-0" style="width: 50px; height: 50px; background-color: #090697;">
+                        <i class="fa fa-envelope-open text-white"></i>
+                    </div>
+                    <div class="ms-3">
+                        <h5>Email</h5>
+                        <p class="mb-0">contact@iema.dz</p>
+                    </div>
+                </div>
+
+                <!-- إضافة الخريطة هنا -->
+                <div class="mt-4">
+                    <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3196.686659277354!2d3.472982175504048!3d36.75409157029795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128e68eb5c555555%3A0x6538bed74e7d2536!2sCentre%20Commercial%20TITANIC!5e0!3m2!1sen!2sdz!4v1724551515060!5m2!1sen!2sdz"
+                        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            
+            <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
+                <h2>Remplissez pour vous inscrire</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="prenom" class="form-label">Prénom *</label>
+                        <input type="text" class="form-control" id="prenom" placeholder="Votre prénom" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="nom" class="form-label">Nom *</label>
+                        <input type="text" class="form-control" id="nom" placeholder="Votre nom" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Courriel *</label>
+                        <input type="email" class="form-control" id="email" placeholder="Votre email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="nationalite" class="form-label">Nationalité *</label>
+                        <select class="form-select" id="nationalite" required>
+                            <option value="" disabled selected>Sélectionner -</option>
+                            <!-- Ajoutez ici les options pour les nationalités -->
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="paysResidence" class="form-label">Pays de résidence *</label>
+                        <select class="form-select" id="paysResidence" required>
+                            <option value="" disabled selected>Sélectionner -</option>
+                            <!-- Ajoutez ici les options pour les pays -->
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="formationSouhaitee" class="form-label">Formation souhaitée *</label>
+                        <select class="form-select" id="formationSouhaitee" required>
+                            <option value="" disabled selected>Sélectionner -</option>
+                            <!-- Ajoutez هنا الخيارات للتكوينات -->
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="rentréeEnvisagée" class="form-label">Rentrée envisagée</label>
+                        <input type="text" class="form-control" id="rentréeEnvisagée" value="2025-2026" readonly>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="conditions" required>
+                        <label class="form-check-label" for="conditions">J'ai lu et accepte les conditions générales d'utilisation et de confidentialité .* </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Contact End -->
+
+  
+
+<!-- Footer Start -->
+<div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-4 col-md-6">
+                <h4 class="text-white mb-3">Liens rapides</h4>
+                <p><a class="text-light" href="#formation">Qui sommes nous?</a></p>
+                <p><a class="text-light" href="#formation">Formation</a></p>
+
+               
+                <p><a class="text-light" href="contact.html">Contact</a></p>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <h4 class="text-white mb-3">Contact</h4>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i> Cité 392 Logt Bd 19, entrée F.10, 35000</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+213 771 82 16 00</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i> contact@iema.dz</p>
+                <div class="d-flex pt-2">
+      
+                 <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/INSTITUTEUROMEDALGER/?locale=fr_FR"><i class="fab fa-facebook-f"></i></a>
+                           <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/iemalger/"><i class="fab fa-instagram"></i></a>
+                
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+            <h4 class="text-white mb-3">Souscrire à notre newsletter</h4>
+                
+                <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <form action="#">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="email" placeholder="Votre email" required>
+                        <button type="submit" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"><a href="mailto:contact@iema.dz@gmail.com">S'abonner</a></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="index.html">L’Institut Euro-Méditerranéen d’Algerie</a>, Tous droits réservés.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

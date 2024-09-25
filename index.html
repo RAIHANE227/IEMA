@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-translate-customization" content="9f841e7780177523-3214ceb76f765f38-gc38c6fe6f9d06436-c">
+
+    <title>L’Institut Euro-Méditerranéen d’Algerie </title>
+
+    <!-- Favicon -->
+    <link href="img/1.png" rel="icon">
+    
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Custom Styles for Navbar and Sections -->
+    <style>
+       
+        .navbar {
+            background-color: #ffffff; /* White background */
+            padding: 0.5rem 1rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            position: fixed; /* Fixed position for navbar */
+            top: 0;
+            width: 100%; /* Full width */
+            z-index: 1050; /* Ensure it stays on top of other elements */
+        }
+        .navbar-brand img {
+            height: 60px;
+        }
+        .navbar-nav .nav-link {
+            color: #333333; /* Dark text for nav links */
+            margin-right: 1rem;
+            font-size: 16px;
+            font-weight: 500;
+            position: relative;
+        }
+        .navbar-nav .nav-link:hover, .navbar-nav .nav-link.active {
+            color: #0033cc; /* Blue color for active and hovered links */
+            text-decoration: none;
+        }
+        .navbar-nav .nav-link.active::after {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: #0033cc; /* Blue underline for active links */
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+        }
+        .navbar-toggler {
+            border-color: #333333; /* Dark border for toggler */
+        }
+        .navbar-toggler-icon {
+            background-color: #333333; /* Dark icon for toggler */
+        }
+        .section {
+            position: fixed;
+            top: 70px; /* Adjusted to avoid overlapping the navbar */
+            left: 0;
+            width: 100%;
+            background-color: #ffffff; /* White background for section */
+            padding: 20px 0; /* Reduced padding */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: none; /* Initially hidden */
+            z-index: 1050; /* Make sure it appears above other elements */
+            border-top: 4px solid #0033cc; /* Blue border at top */
+            max-height: 300px; /* Limit height */
+            overflow-y: auto; /* Enable scrolling if content exceeds max-height */
+        }
+        .section .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .section h5 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: 600;
+            color: #0033cc; /* Dark blue color for headings */
+            padding-left: 20px;
+        }
+        .section ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        .section ul li {
+            margin-bottom: 10px;
+            padding-left: 25px;
+        }
+        .section ul li a {
+            color: #333333; /* Dark text for links */
+            text-decoration: none;
+        }
+        .section ul li a:hover {
+            color: #0033cc; /* Blue text on hover */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+     
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <img src="img/1.png" alt="Logo">
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto">
+        
+              <a  class="nav-link dropdown-toggle" id="quiSommesToggle">QUI SOMMES NOUS</a>
+                <a  class="nav-link dropdown-toggle" id="formationsToggle">FORMATION</a>
+    <!-- Navbar End 
+                  Navbar End 
+                <a href="#" class="nav-link dropdown-toggle" id="conseilToggle"></a>
+                <a href="testim.html" class="nav-item nav-link"> Événements</a>-->
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+               <a href="login.html" class="nav-item nav-link"><i ></i></a>
+                <a href="#" class="nav-item nav-link">
+                    <div id="google_translate_element"></div>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Formations Section Start -->
+    <div id="formationsSection" class="section">
+        <div class="container">
+            <h5>Executive education et formation professionnelle </h5>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul>
+                        <li><a href="Langues.html"> Langues  </a></li>
+                        <li><a href="Digital et culture digitale.html">Digital et culture digitale </a></li>
+                        <li><a href="Communication.html">Communication </a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                        <li><a href="Commerce et finance.html">Commerce et finance </a></li>
+                        <li><a href="Développement durable et transition énergétique.html">Développement durable et transition énergétique </a></li>
+                        <li><a href="Management.html">Management </a></li>
+                    </ul>
+                </div>
+            </div>
+        <!--           <h5>Formation académique </h5>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul>
+                        <li><a href="#">Licence en sciences humaines et sociales </a></li>
+                        <li><a href="#">Licence en développement durable </a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+     Formations Section End -->
+        </div>
+    </div>
+     
+
+    <!-- Qui Sommes Nous Section Start -->
+    <div id="quiSommesSection" class="section">
+        <div class="container">
+            <h5>QUI SOMMES NOUS</h5>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul>
+                        <li><a href="#qui-sommes-nous">Qui sommes nous ?</a></li>
+
+                        <li><a href="#fondatrice-section">Mot de la fondatrice</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                        <li><a href="#values-section">Nos valeurs et engagements</a></li>
+                        <li><a href="t.html">Équipe</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Qui Sommes Nous Section End -->
+
+    <!-- Conseil Section Start 
+     Conseil Section Start 
+    <div id="conseilSection" class="section">
+        <div class="container">
+            <h5></h5>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul>
+                        <li><a href="#">Conseil des ministres</a></li>
+                        <li><a href="#">CONSEIL strategie</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                        <li><a href="#">Testimonial</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <!-- Conseil Section End -->
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var formationsToggle = document.getElementById('formationsToggle');
+            var quiSommesToggle = document.getElementById('quiSommesToggle');
+            var conseilToggle = document.getElementById('conseilToggle');
+            var formationsSection = document.getElementById('formationsSection');
+            var quiSommesSection = document.getElementById('quiSommesSection');
+            var conseilSection = document.getElementById('conseilSection');
+    
+            formationsToggle.addEventListener('click', function () {
+                formationsSection.style.display = formationsSection.style.display === 'block' ? 'none' : 'block';
+                quiSommesSection.style.display = 'none';
+                conseilSection.style.display = 'none';
+            });
+    
+            quiSommesToggle.addEventListener('click', function () {
+                quiSommesSection.style.display = quiSommesSection.style.display === 'block' ? 'none' : 'block';
+                formationsSection.style.display = 'none';
+                conseilSection.style.display = 'none';
+            });
+    
+            conseilToggle.addEventListener('click', function () {
+                conseilSection.style.display = conseilSection.style.display === 'block' ? 'none' : 'block';
+                formationsSection.style.display = 'none';
+                quiSommesSection.style.display = 'none';
+            });
+    
+            // إخفاء الأقسام عند النقر خارجها
+            document.addEventListener('click', function (event) {
+                if (!formationsToggle.contains(event.target) && !formationsSection.contains(event.target)) {
+                    formationsSection.style.display = 'none';
+                }
+                if (!quiSommesToggle.contains(event.target) && !quiSommesSection.contains(event.target)) {
+                    quiSommesSection.style.display = 'none';
+                }
+                if (!conseilToggle.contains(event.target) && !conseilSection.contains(event.target)) {
+                    conseilSection.style.display = 'none';
+                }
+            });
+    
+            // إضافة أحداث لإخفاء الأقسام بعد النقر على أي رابط داخلها
+            document.querySelectorAll('.section a').forEach(function (link) {
+                link.addEventListener('click', function () {
+                    formationsSection.style.display = 'none';
+                    quiSommesSection.style.display = 'none';
+                    conseilSection.style.display = 'none';
+                });
+            });
+        });
+    </script>
+    
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-4">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/a.jpeg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                    style="background: rgba(2, 36, 224, 0.466);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-10 col-lg-8">
+                                <h5 class=" text-uppercase mb-3 animated slideInDown" style="color: #8e8eff3f;"></h5>
+                                <h1 class="display-3 text-white animated slideInDown">Apprendre et agir dans  un monde qui change</h1>
+                                <p class=" text-white mb-4 pb-2">L’Institut Euro-Méditerranéen d'Algérie, un établissement d’enseignement qui propose des formations d’excellence en langues et sciences humaines et sociales.</p>
+                               <!--  <a href="about.html"
+                                   class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"      style="color: #fdfdfd;">Pourquoi choisir l’IEMA?​</a>
+                                <a href="signup.html" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join
+</a>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+  
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100 overflow-hidden">
+                        <div class="image-slider">
+                            <img class="img-fluid" src="img/1a.jpg" alt="" style="object-fit: cover;">
+                            <img class="img-fluid" src="img/2z.jpg" alt="" style="object-fit: cover;">
+                            <img class="img-fluid" src="img/3e.jpg" alt="" style="object-fit: cover;">
+                            <img class="img-fluid" src="img/4r.jpg" alt="" style="object-fit: cover;">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="section-title bg-white text-start pe-3">À propos de nous</h6>
+                    <h1 class="mb-4" style="color: #090697;">Bienvenue à l'Institut Euro-Méditerranéen d'Algérie</h1>
+                    <p class="mb-4">Bienvenue à l'Institut Euro-Méditerranéen d'Algérie, où nous croyons en des expériences d'apprentissage accessibles et innovantes qui s'adaptent à votre emploi du temps et à votre style d'apprentissage. Rejoignez-nous pour embrasser l'avenir de l'éducation et libérer votre potentiel avec nos cours immersifs en ligne.</p>
+                    <p class="mb-4">Bienvenue à l'Institut Euro-Méditerranéen d'Algérie, votre porte d'entrée vers des opportunités d'apprentissage infinies. Nous sommes dédiés à démocratiser l'éducation, en offrant une gamme diversifiée de cours dispensés par des experts de l'industrie. Notre mission est de permettre aux apprenants du monde entier de s'épanouir, en favorisant une plateforme axée sur la communauté où la connaissance ne connaît pas de limites.</p>
+                    <div class="row gy-2 gx-4 mb-4">
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right me-2"></i>Instructeurs Experts</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right me-2"></i>Programme Personnalisé</p>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right me-2"></i>Sessions Interactives en Direct</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right me-2"></i>Catalogue de Cours Complet</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right me-2"></i>Engagement Communautaire</p>
+                        </div>
+                        
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right me-2"></i>Certification et Reconnaissance</p>
+                        </div>
+
+                       
+
+
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <style>
+        .position-relative {
+            position: relative;
+        }
+    
+        .overflow-hidden {
+            overflow: hidden;
+        }
+    
+        .image-slider {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+    
+        .image-slider img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+    
+        .image-slider img.active {
+            opacity: 1;
+        }
+    </style>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const images = document.querySelectorAll('.image-slider img');
+            let currentIndex = 0;
+    
+            function showNextImage() {
+                images[currentIndex].classList.remove('active');
+                currentIndex = (currentIndex + 1) % images.length;
+                images[currentIndex].classList.add('active');
+            }
+    
+            images[currentIndex].classList.add('active');
+            setInterval(showNextImage, 3000); // Change image every 3 seconds
+        });
+    </script>
+    
+    
+    <!-- About End -->
+
+
+<!-- Banner-1 Start -->
+<!-- Banner-1 Start -->
+<div id="qui-sommes-nous" class="container-xxl py-5 pt-5 bg-light">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                <h1 class="mb-4" style="color: #090697;">Qui sommes nous ?</h1>
+                <p class="mb-4">
+                    L’Institut Euroméditerranéen d’Algerie (IEMA), installé au Phoenix Smart Center de Boumerdès, est un établissement privé d’enseignement et de formation proposant des parcours innovants en sciences humaines et sociales, cybersécurité, langues, et management. Fondé par Yasmina Touaibia, l’IEMA fait le choix de l’excellence et de la promotion du capital humain. L’institut s’engage à offrir une éducation de qualité et à développer les compétences nécessaires pour répondre aux défis contemporains. Grâce à ses nombreux partenariats à travers la région méditerranéenne, l’IEMA favorise les échanges culturels et académiques, contribuant ainsi à la création d’un réseau de professionnels qualifiés et engagés.
+                </p>
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                <div class="position-relative h-100">
+                    <img class="img-fluid position-absolute" src="img/qq.png" alt=""
+                        style="object-fit: cover; width: 100%; margin-top: 20px;">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+  <!-- Banner-2 Start -->
+  <section class="pb-5" id="fondatrice-section">
+    <div class="container-xxl mt-5">
+        <div class="container">
+            <div class="row g-5">
+                <!-- Left section: Director's image -->
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="shadow-lg" style="max-width: 400px; height: 500px; display: flex; align-items: center; justify-content: center; background-color: #fff; border-radius: 10px;">
+                        <img class="img-fluid" src="img/yasmina-touaibia.jpg" alt="Yasmina Touaibia" style="object-fit: cover; width: 100%; height: 100%; border-radius: 10px;">
+                    </div>
+                </div>
+                
+                <!-- Right section: Director's message -->
+                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="shadow-lg rounded" style="border-radius: 10px; background-color: #fff; padding: 20px; width: 100%;">
+                        <!-- Top section: Light grey background under the image -->
+                        <div class="p-4">
+                            <h1 style="border-left: 5px solid #0033ff; padding-left: 10px; margin-bottom: 20px; font-weight: bold;">
+                                Mot de la fondatrice
+                            </h1>
+                        </div>
+                        <!-- Middle section: Text content -->
+                        <div class="p-4 text-dark">
+                            <p class="mb-4">
+                                Bienvenue à l'Institut Euro-Méditerranéen d'Algérie (IEMA), un lieu où l'excellence académique et la performance professionnelle rencontrent l'engagement communautaire. Notre mission est de vous offrir des formations de haute qualité en sciences humaines et sociales, en management et en langues tout en vous accompagnant dans votre parcours académique et professionnel.
+                            </p>
+                            <p class="mb-4">
+                                À l'IEMA, nous croyons en une éducation qui dépasse les frontières et qui prépare nos étudiants à devenir des citoyens du monde, capables de relever les défis de demain. Nos programmes sont conçus pour encourager la réflexion critique, l'innovation, l'ouverture d'esprit et l'engagement civique.
+                            </p>
+                            <p class="mb-4">
+                                Nous proposons également des formations professionnelles innovantes destinées aux cadres et cadres intermédiaires de tous secteurs confondus. Ces programmes sont spécialement conçus pour répondre aux besoins actuels du marché du travail et pour aider les professionnels à développer leurs compétences et à progresser dans leur carrière.
+                            </p>
+                            <p class="mb-4">
+                                Pour vous accompagner au mieux et garantir l'excellence de votre parcours, nous pouvons compter sur notre équipe d'experts, d'enseignants et de chercheurs dévoués, ainsi que sur nos partenaires, entreprises et institutions à travers la Méditerranée. Ensemble, nous travaillons à créer un environnement d'apprentissage dynamique et inclusif avec l'ambition de contribuer à faire de l'Algérie et de la ville de Boumerdès en particulier, des acteurs incontournables en Méditerranée.
+                            </p>
+                            <p class="mb-4">
+                                Je vous invite à explorer notre catalogue de formations et à participer à nos  Événements scientifiques et culturels. Rejoignez-nous dans cette aventure éducative et ouvrez la porte à l'excellence.
+                            </p>
+                        </div>
+                        <!-- Bottom section: Light blue background -->
+                        <div class="p-4" style="background-color: #285aff13;">
+                            <p class="text-dark font-weight-bold">
+                                <strong>Yasmina Touaibia</strong><br>
+                                Fondatrice et Directrice générale de l'IEMA
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="values-section" class="container-xxl py-5 wow fadeInUp values-section" data-wow-delay="0.1s">
+    <div class="container">
+        <h1>Nos valeurs et engagements</h1>
+        <div class="values-container">
+            <div class="value-box" data-number="1">
+                <h2>Des parcours et des accompagnements personnalisés</h2>
+                <p>Nous croyons en l’importance de l’individualisation des parcours éducatifs. Chaque étudiant bénéficie d’un accompagnement personnalisé pour maximiser son potentiel et atteindre ses objectifs académiques et professionnels.</p>
+            </div>
+            <div class="value-box" data-number="2">
+                <h2>Une pédagogie active</h2>
+                <p>Notre approche pédagogique est centrée sur l’engagement actif des étudiants. Nous favorisons l’apprentissage par la pratique, les projets collaboratifs et les discussions interactives pour développer des compétences concrètes et durables.</p>
+            </div>
+            <div class="value-box" data-number="3">
+                <h2>L’engagement civique</h2>
+                <p>L’IEMA encourage ses étudiants à devenir des citoyens responsables et engagés. Nous intégrons des projets communautaires et des initiatives de volontariat dans nos programmes pour promouvoir l’implication sociale et le développement durable.</p>
+            </div>
+            <div class="value-box" data-number="4">
+                <h2>La diplomatie scientifique</h2>
+                <p>Nous valorisons la diplomatie scientifique comme un moyen de renforcer les relations internationales et de résoudre les défis globaux. Nos programmes favorisent la collaboration entre chercheurs et experts de différents pays pour promouvoir l’innovation et le progrès scientifique.</p>
+            </div>
+            <div class="value-box" data-number="5">
+                <h2>Le dialogue interculturel</h2>
+                <p>Le dialogue interculturel est au cœur de notre mission. Nous encourageons les échanges entre cultures pour favoriser la compréhension mutuelle, la tolérance et la paix. Nos  événements et ateliers sont conçus pour créer des ponts entre les différentes communautés méditerranéennes.</p>
+            </div>
+            <div class="value-box" data-number="6">
+                <h2>L’excellence académique</h2>
+                <p>L’IEMA s’engage à offrir une éducation de la plus haute qualité. Nous visons l’excellence académique en recrutant des enseignants de renom, en proposant des programmes rigoureux et en soutenant la recherche de pointe. Notre objectif est de former des leaders compétents et innovants.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* تصفير التباعد الافتراضي للجسم */
+    body, html {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* تنسيق خاص بالقسم المحدد فقط */
+    .values-section {
+        padding: 0 15px; /* تقليل الفراغات الجانبية داخل الحاوية */
+    }
+
+    .values-section h1 {
+        text-align: center;
+        color: #030303;
+        margin-bottom: 30px;
+    }
+
+    .values-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        max-width: 1200px;
+        margin: 0 auto; /* لمركز الحاوية داخل الصفحة */
+    }
+
+    .value-box {
+        position: relative;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        color: #000;
+        background-color: #fff; /* اللون الافتراضي الأبيض */
+    }
+
+    .value-box:nth-child(odd) {
+        background-color: #e0f7ff; /* اللون الأزرق الفاتح للصناديق الفردية */
+    }
+
+    .value-box h2 {
+        color: #13039e;
+        font-size: 20px;
+        margin-bottom: 10px;
+        z-index: 2;
+        position: relative;
+    }
+
+    .value-box p {
+        color: #333;
+        font-size: 14px;
+        line-height: 1.6;
+        z-index: 2;
+        position: relative;
+    }
+
+    .value-box::before {
+        content: attr(data-number); /* استخدام الرقم المخزن في data-number */
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        font-size: 80px;
+        color: rgba(0, 0, 255, 0.1); /* رقم خلفي باللون الأزرق الشفاف */
+        z-index: 1;
+    }
+
+    @media (max-width: 768px) {
+        .values-container {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (max-width: 480px) {
+        .values-container {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Banner-1 End -->
+
+
+             </div>
+        <!-- End of Formations Section -->
+        </div>
+    </div>
+    
+   
+      
+
+<!-- Footer Start -->
+<div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-4 col-md-6">
+                <h4 class="text-white mb-3">Liens rapides</h4>
+                <p><a class="text-light" href="index.html">Qui sommes nous ?</a></p>
+                <p><a class="text-light" href="index.html">Formation</a></p>
+
+               
+                <p><a class="text-light" href="contact.html">Contact</a></p>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <h4 class="text-white mb-3">Contact</h4>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i> Cité 392 Logt Bd 19, entrée F.10, 35000</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+213 771 82 16 00</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i> contact@iema.dz</p>
+                <div class="d-flex pt-2">
+      
+                 <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/INSTITUTEUROMEDALGER/?locale=fr_FR"><i class="fab fa-facebook-f"></i></a>
+                           <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/iemalger/"><i class="fab fa-instagram"></i></a>
+                
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+           <h4 class="text-white mb-3">Souscrire à notre newsletter</h4>
+                
+                <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <form action="#">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="email" placeholder="Votre email" required>
+                        <button type="submit" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"><a href="mailto:contact@iema.dz@gmail.com">S'abonner</a></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="index.html">L’Institut Euro-Méditerranéen d’Algerie</a>, Tous droits réservés.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+<script src="js/main.js"></script>
+<!-- Existing content -->
+<div>
+
+    <!-- Floating Reminder Icon for Contact -->
+    <div class="floating-icon contact">
+        <a href="contact.html">
+            <i class="fas fa-envelope"></i>
+        </a>
+    </div>
+
+    <!-- Floating Reminder Icon for Download -->
+    <div class="floating-icon download" id="downloadIcon">
+        <a href="#">
+            <i class="fas fa-file-download"></i>
+        </a>
+    </div>
+
+    <!-- Modal for Download -->
+    <div id="downloadModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2 class="modal-title">"Bienvenue !"</h2>
+            <p class="modal-text">"Téléchargez ici les documents d'inscription pour commencer votre parcours."</p>
+            <a href="Copie de Dossier d'Inscription .pdf" class="btn-download">TÉLÉCHARGER LA DOCUMENTATION</a>
+        </div>
+    </div>
+    
+    <!-- JavaScript to handle the modal -->
+    <script>
+        // Get the modal
+        var modal = document.getElementById("downloadModal");
+
+        // Get the icon that opens the modal
+        var downloadIcon = document.getElementById("downloadIcon");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementById("closeModal");
+
+        // When the user clicks the icon, open the modal
+        downloadIcon.onclick = function () {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+    <style>
+        /* Floating Icon Styles */
+        .floating-icon {
+            position: fixed;
+            right: 20px;
+            background-color: #090697; /* Blue color */
+            color: white;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 9999;
+            transition: background-color 0.3s;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        .floating-icon a {
+            color: white;
+            text-decoration: none;
+            font-size: 24px;
+        }
+
+        .floating-icon:hover {
+            background-color: #090697;
+        }
+
+        /* Keyframes for floating animation */
+        @keyframes float {
+            0% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        /* Modal Styles */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 10000; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgba(0, 0, 0, 0.7); /* Black w/ opacity */
+            padding-top: 60px;
+        }
+
+        .modal-content {
+            position: relative;
+            margin: auto;
+            padding: 0; /* Remove padding to let the image fill the area */
+            border: 1px solid #888;
+            width: 90%; /* Increase the width */
+            max-width: 1000px; /* Increase the maximum width */
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            overflow: hidden; /* Ensure the image and content fit nicely */
+            display: flex;
+            align-items: center;
+        }
+
+        .modal-text-container {
+            flex: 1;
+            padding: 40px;
+            color: white;
+            text-align: center;
+            background: none; /* No background color for text container */
+        }
+
+        .modal-title {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .modal-text {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .btn-download {
+            background-color: #3c00e2;
+            color: white;
+            padding: 15px 40px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 18px;
+            display: inline-block;
+        }
+
+        .btn-download:hover {
+            background-color: #002dc1;
+        }
+
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 25px;
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #ccc;
+            text-decoration: none;
+        }
+
+        /* Gradient Background */
+        .modal-content::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(255, 100, 100, 0.5), rgba(100, 100, 255, 0.5)); /* Gradient background */
+            filter: blur(5px); /* Apply blur effect */
+            z-index: -1; /* Place behind text */
+        }
+
+        /* Floating Icon specific styles */
+        .floating-icon.signup {
+            bottom: 280px; /* Increased by 60px */
+        }
+
+        .floating-icon.contact {
+            bottom: 220px; /* Increased by 60px */
+        }
+
+        .floating-icon.download {
+            bottom: 160px; /* Increased by 60px */
+        }
+    </style>
+</div>
+
+
+
+</style>
+
+<script src="//code.tidio.co/xt2zzmgfgfax1ojubpqlri7vb93khpsp.js" async></script>
+</div>
+
+
+
+</body>
+
+</html>

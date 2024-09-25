@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-translate-customization" content="9f841e7780177523-3214ceb76f765f38-gc38c6fe6f9d06436-c">
+
+    <title>L’Institut Euro-Méditerranéen d’Algerie : Online Courses</title>
+
+    <!-- Favicon -->
+    <link href="img/1.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Custom Styles for Navbar and Sections -->
+    <style>
+        .navbar {
+            background-color: #ffffff; /* White background */
+            padding: 0.5rem 1rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            position: fixed; /* Fixed position for navbar */
+            top: 0;
+            width: 100%; /* Full width */
+            z-index: 1050; /* Ensure it stays on top of other elements */
+        }
+        .navbar-brand img {
+            height: 60px;
+        }
+        .navbar-nav .nav-link {
+            color: #333333; /* Dark text for nav links */
+            margin-right: 1rem;
+            font-size: 16px;
+            font-weight: 500;
+            position: relative;
+        }
+        .navbar-nav .nav-link:hover, .navbar-nav .nav-link.active {
+            color: #0033cc; /* Blue color for active and hovered links */
+            text-decoration: none;
+        }
+        .navbar-nav .nav-link.active::after {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: #0033cc; /* Blue underline for active links */
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+        }
+        .navbar-toggler {
+            border-color: #333333; /* Dark border for toggler */
+        }
+        .navbar-toggler-icon {
+            background-color: #333333; /* Dark icon for toggler */
+        }
+        .section {
+            position: fixed;
+            top: 70px; /* Adjusted to avoid overlapping the navbar */
+            left: 0;
+            width: 100%;
+            background-color: #ffffff; /* White background for section */
+            padding: 20px 0; /* Reduced padding */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: none; /* Initially hidden */
+            z-index: 1050; /* Make sure it appears above other elements */
+            border-top: 4px solid #0033cc; /* Blue border at top */
+            max-height: 300px; /* Limit height */
+            overflow-y: auto; /* Enable scrolling if content exceeds max-height */
+        }
+        .section .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .section h5 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: 600;
+            color: #0033cc; /* Dark blue color for headings */
+            padding-left: 20px;
+        }
+        .section ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        .section ul li {
+            margin-bottom: 10px;
+            padding-left: 25px;
+        }
+        .section ul li a {
+            color: #333333; /* Dark text for links */
+            text-decoration: none;
+        }
+        .section ul li a:hover {
+            color: #0033cc; /* Blue text on hover */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+     
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <img src="img/1.png" alt="Logo">
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto">
+        
+              <a href="#" class="nav-link dropdown-toggle" id="quiSommesToggle">QUI SOMMES NOUS</a>
+                <a href="#" class="nav-link dropdown-toggle" id="formationsToggle">FORMATION</a>
+                  <!-- Navbar End 
+               <a href="#" class="nav-link dropdown-toggle" id="conseilToggle"></a>
+                <a href="testim.html" class="nav-item nav-link"> Événements</a>-->
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+               <a href="login.html" class="nav-item nav-link"><i ></i></a>
+                <a href="#" class="nav-item nav-link">
+                    <div id="google_translate_element"></div>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Formations Section Start -->
+    <div id="formationsSection" class="section">
+        <div class="container">
+            <h5>Executive education et formation professionnelle </h5>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul>
+                        <li><a href="Langues.html"> Langues  </a></li>
+                        <li><a href="Digital et culture digitale.html">Digital et culture digitale </a></li>
+                        <li><a href="Communication.html">Communication </a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                        <li><a href="Commerce et finance.html">Commerce et finance </a></li>
+                        <li><a href="Développement durable et transition énergétique.html">Développement durable et transition énergétique </a></li>
+                        <li><a href="Management.html">Management </a></li>
+                       
+                    </ul>
+                </div>
+            </div>
+               <!--    <h5>Formation académique </h5>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul>
+                        <li><a href="#">Licence en sciences humaines et sociales </a></li>
+                        <li><a href="#">Licence en développement durable </a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+     Formations Section End -->
+        </div>
+    </div>
+    <!-- Formations Section End -->
+
+    <!-- Qui Sommes Nous Section Start -->
+    <div id="quiSommesSection" class="section">
+        <div class="container">
+            <h5>QUI SOMMES NOUS</h5>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul>
+                        <li><a href="index.html">Qui sommes nous ?</a></li>
+
+                        <li><a href="index.html">Mot de la fondatrice</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                        <li><a href="index.html">Nos valeurs et engagements</a></li>
+                        <li><a href="t.html">Équipe</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Qui Sommes Nous Section End -->
+
+    <!-- Conseil Section Start -->
+     <!-- Conseil Section Start 
+    <div id="conseilSection" class="section">
+        <div class="container">
+            <h5></h5>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul>
+                        <li><a href="#">Conseil des ministres</a></li>
+                        <li><a href="#">CONSEIL strategie</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                        <li><a href="#">Testimonial</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <!-- Conseil Section End -->
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var formationsToggle = document.getElementById('formationsToggle');
+            var quiSommesToggle = document.getElementById('quiSommesToggle');
+            var conseilToggle = document.getElementById('conseilToggle');
+            var formationsSection = document.getElementById('formationsSection');
+            var quiSommesSection = document.getElementById('quiSommesSection');
+            var conseilSection = document.getElementById('conseilSection');
+
+            formationsToggle.addEventListener('click', function () {
+                formationsSection.style.display = formationsSection.style.display === 'block' ? 'none' : 'block';
+                quiSommesSection.style.display = 'none';
+                conseilSection.style.display = 'none';
+            });
+
+            quiSommesToggle.addEventListener('click', function () {
+                quiSommesSection.style.display = quiSommesSection.style.display === 'block' ? 'none' : 'block';
+                formationsSection.style.display = 'none';
+                conseilSection.style.display = 'none';
+            });
+
+            conseilToggle.addEventListener('click', function () {
+                conseilSection.style.display = conseilSection.style.display === 'block' ? 'none' : 'block';
+                formationsSection.style.display = 'none';
+                quiSommesSection.style.display = 'none';
+            });
+
+            document.addEventListener('click', function (event) {
+                if (!formationsToggle.contains(event.target) && !formationsSection.contains(event.target)) {
+                    formationsSection.style.display = 'none';
+                }
+                if (!quiSommesToggle.contains(event.target) && !quiSommesSection.contains(event.target)) {
+                    quiSommesSection.style.display = 'none';
+                }
+                if (!conseilToggle.contains(event.target) && !conseilSection.contains(event.target)) {
+                    conseilSection.style.display = 'none';
+                }
+            });
+        });
+    </script>
+    <!-- Header Start -->
+<div class="container-fluid bg-primary py-5 mb-5 page-header">
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-10 text-center">
+                <h1 class="display-3 text-white animated slideInDown"><br> Formation en Anglais </h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center">
+                        <li class="breadcrumb-item"><a class="text-white" href="index.html">Accueil</a></li>
+                        <li class="breadcrumb-item text-white active" aria-current="page">  Anglais </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Header End -->
+<!-- Course Details Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-5">
+            <!-- الجزء الأول: تفاصيل الدورة النصية -->
+            <div class="col-lg-8">
+                <h6 class="section-title bg-white text-start pe-3">Formation</h6>
+                <h1 class="mb-4" style="color: #090697;"> Anglais</h1>
+                <p class="mb-4">Cette formation vise à aider les étudiants à maîtriser l'anglais à différents niveaux, du débutant au niveau expert. Elle est conçue pour les adultes et adolescents souhaitant améliorer leur compréhension et leur capacité à communiquer en anglais dans divers contextes.</p>
+
+                <!-- Niveau A1 -->
+                <h3 class="mb-4">Niveau A1 (Débutant)</h3>
+                <ul>
+                    <li><strong>Cible :</strong>
+                        <ul>
+                            <li>Adultes et adolescents débutants en anglais.</li>
+                            <li>Personnes n'ayant aucune ou très peu de connaissances en anglais.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Prérequis :</strong> Aucun.</li>
+                    <li><strong>Thématiques principales :</strong>
+                        <ul>
+                            <li>Salutations et présentations.</li>
+                            <li>Informations personnelles (nom, âge, nationalité).</li>
+                            <li>La famille et les amis.</li>
+                            <li>Les activités quotidiennes.</li>
+                            <li>Les achats et les services.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Compétences visées :</strong>
+                        <ul>
+                            <li>Comprendre et utiliser des expressions familières et quotidiennes.</li>
+                            <li>Se présenter et poser des questions simples.</li>
+                            <li>Interagir de manière simple si l'interlocuteur parle lentement et distinctement.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Nombre d'heures :</strong> 60 heures</li>
+                </ul>
+
+                <!-- Niveau A2 -->
+                <h3 class="mb-4">Niveau A2 (Élémentaire)</h3>
+                <ul>
+                    <li><strong>Cible :</strong>
+                        <ul>
+                            <li>Adultes et adolescents ayant des bases en anglais.</li>
+                            <li>Personnes souhaitant améliorer leur compréhension et expression de base.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Prérequis :</strong> Connaissances de base en anglais (niveau A1).</li>
+                    <li><strong>Thématiques principales :</strong>
+                        <ul>
+                            <li>La vie quotidienne et les loisirs.</li>
+                            <li>Les voyages et les vacances.</li>
+                            <li>La santé et les soins médicaux.</li>
+                            <li>Les repas et la nourriture.</li>
+                            <li>Les descriptions de personnes et de lieux.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Compétences visées :</strong>
+                        <ul>
+                            <li>Comprendre des phrases isolées et des expressions fréquemment utilisées.</li>
+                            <li>Communiquer lors de tâches simples et habituelles.</li>
+                            <li>Décrire en termes simples des aspects de son passé et de son environnement.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Nombre d'heures :</strong> 80 heures</li>
+                </ul>
+
+                <!-- Niveau B1 -->
+                <h3 class="mb-4">Niveau B1 (Intermédiaire)</h3>
+                <ul>
+                    <li><strong>Cible :</strong>
+                        <ul>
+                            <li>Adultes et adolescents ayant une bonne maîtrise des bases de l'anglais.</li>
+                            <li>Personnes souhaitant développer leur capacité à communiquer de manière plus autonome.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Prérequis :</strong> Connaissances intermédiaires en anglais (niveau A2).</li>
+                    <li><strong>Thématiques principales :</strong>
+                        <ul>
+                            <li>Les expériences personnelles et professionnelles.</li>
+                            <li>Les  Événements et les projets futurs.</li>
+                            <li>Les médias et les technologies.</li>
+                            <li>Les problèmes sociaux et environnementaux.</li>
+                            <li>Les loisirs et les intérêts personnels.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Compétences visées :</strong>
+                        <ul>
+                            <li>Comprendre les points essentiels d'un discours clair et standard.</li>
+                            <li>Produire un discours simple et cohérent sur des sujets familiers.</li>
+                            <li>Décrire des expériences, des  Événements, des rêves et des ambitions.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Nombre d'heures :</strong> 100 heures</li>
+                </ul>
+
+                <!-- Niveau B2 -->
+                <h3 class="mb-4">Niveau B2 (Intermédiaire avancé)</h3>
+                <ul>
+                    <li><strong>Cible :</strong>
+                        <ul>
+                            <li>Adultes et adolescents ayant une maîtrise intermédiaire de l'anglais.</li>
+                            <li>Personnes souhaitant approfondir leur compréhension et expression orale et écrite.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Prérequis :</strong> Connaissances avancées en anglais (niveau B1).</li>
+                    <li><strong>Thématiques principales :</strong>
+                        <ul>
+                            <li>Les débats et les discussions argumentées.</li>
+                            <li>Les actualités et les  Événements mondiaux.</li>
+                            <li>La culture et les arts.</li>
+                            <li>Les études et la carrière professionnelle.</li>
+                            <li>Les relations interpersonnelles.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Compétences visées :</strong>
+                        <ul>
+                            <li>Comprendre le contenu essentiel de sujets concrets ou abstraits.</li>
+                            <li>Interagir avec un degré de spontanéité et d'aisance.</li>
+                            <li>Produire des textes clairs et détaillés sur une grande gamme de sujets.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Nombre d'heures :</strong> 120 heures</li>
+                </ul>
+
+                <!-- Niveau C1 -->
+                <h3 class="mb-4">Niveau C1 (Avancé)</h3>
+                <ul>
+                    <li><strong>Cible :</strong>
+                        <ul>
+                            <li>Adultes et adolescents ayant une très bonne maîtrise de l'anglais.</li>
+                            <li>Personnes souhaitant atteindre un niveau de compétence élevé pour des besoins académiques ou professionnels.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Prérequis :</strong> Connaissances très avancées en anglais (niveau B2).</li>
+                    <li><strong>Thématiques principales :</strong>
+                        <ul>
+                            <li>Les sujets complexes et spécialisés.</li>
+                            <li>Les analyses critiques et les essais.</li>
+                            <li>La littérature et les œuvres culturelles.</li>
+                            <li>Les présentations et les discours publics.</li>
+                            <li>Les interactions professionnelles et académiques.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Compétences visées :</strong>
+                        <ul>
+                            <li>Comprendre une grande gamme de textes longs et exigeants.</li>
+                            <li>S'exprimer spontanément et couramment sans trop chercher ses mots.</li>
+                            <li>Utiliser la langue de manière flexible et efficace pour des fins sociales, académiques et professionnelles.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Nombre d'heures :</strong> 150 heures</li>
+                </ul>
+
+                <!-- Niveau C2 -->
+                <h3 class="mb-4">Niveau C2 (Maîtrise)</h3>
+                <ul>
+                    <li><strong>Cible :</strong>
+                        <ul>
+                            <li>Adultes et adolescents ayant une maîtrise quasi-native de l'anglais.</li>
+                            <li>Personnes souhaitant perfectionner leur usage de l'anglais à un niveau expert.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Prérequis :</strong> Connaissances expertes en anglais (niveau C1).</li>
+                    <li><strong>Thématiques principales :</strong>
+                        <ul>
+                            <li>Les sujets très spécialisés et techniques.</li>
+                            <li>Les nuances et les subtilités de la langue.</li>
+                            <li>Les discours académiques et professionnels de haut niveau.</li>
+                            <li>Les œuvres littéraires et philosophiques.</li>
+                            <li>Les débats et les discussions approfondies.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Compétences visées :</strong>
+                        <ul>
+                            <li>Comprendre sans effort pratiquement tout ce qui est lu ou entendu.</li>
+                            <li>S'exprimer spontanément, très couramment et de manière précise.</li>
+                            <li>Résumer des informations provenant de différentes sources, orales et écrites.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Nombre d'heures :</strong> 180 heures</li>
+                </ul>
+<!-- Inscriptions -->
+<h3 class="mt-4">Inscriptions</h3>
+              
+<p>Pour vous inscrire à cette formation, veuillez <a href="contact.html">nous contacter</a>.</p>
+
+
+            </div>
+
+            <!-- الجزء الثاني: تفاصيل إضافية -->
+            <div class="col-lg-4">
+                <div class="bg-light rounded p-4">
+                    <h4 class="mb-4">Informations supplémentaires</h4>
+                    <img src="img/english.jpg" alt="Informations Supplémentaires" class="img-fluid mb-3" />
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-clock me-2"></i>Niveau A1 : 60 heures</li>
+                        <li><i class="fa fa-clock me-2"></i>Niveau A2 : 80 heures</li>
+                        <li><i class="fa fa-clock me-2"></i>Niveau B1 : 100 heures</li>
+                        <li><i class="fa fa-clock me-2"></i>Niveau B2 : 120 heures</li>
+                        <li><i class="fa fa-clock me-2"></i>Niveau C1 : 150 heures</li>
+                        <li><i class="fa fa-clock me-2"></i>Niveau C2 : 180 heures</li>
+                        <li><i class="fa fa-user me-2"></i>Public cible : Adultes, Adolescents</li>
+                        <li><i class="fa fa-check me-2"></i>Compétences visées : Communication, Compréhension, Rédaction, Interaction</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Course Details End -->
+
+
+
+
+
+
+
+
+
+
+<!-- Footer Start -->
+<div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-4 col-md-6">
+                <h4 class="text-white mb-3">Liens rapides</h4>
+                <p><a class="text-light" href="#formation">Qui sommes nous ?</a></p>
+                <p><a class="text-light" href="#formation">Formation</a></p>
+
+               
+                <p><a class="text-light" href="contact.html">Contact</a></p>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <h4 class="text-white mb-3">Contact</h4>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i> Cité 392 Logt Bd 19, entrée F.10, 35000</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+213 771 82 16 00</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i> contact@iema.dz</p>
+                <div class="d-flex pt-2">
+      
+                 <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/INSTITUTEUROMEDALGER/?locale=fr_FR"><i class="fab fa-facebook-f"></i></a>
+                           <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/iemalger/"><i class="fab fa-instagram"></i></a>
+                
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+            <h4 class="text-white mb-3">Souscrire à notre newsletter</h4>
+                
+                <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <form action="#">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="email" placeholder="Votre email" required>
+                        <button type="submit" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"><a href="mailto:contact@iema.dz@gmail.com">S'abonner</a></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="index.html">L’Institut Euro-Méditerranéen d’Algerie</a>, Tous droits réservés.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="//code.tidio.co/xt2zzmgfgfax1ojubpqlri7vb93khpsp.js" async></script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

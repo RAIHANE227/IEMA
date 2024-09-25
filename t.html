@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-translate-customization" content="9f841e7780177523-3214ceb76f765f38-gc38c6fe6f9d06436-c">
+
+    <title>L’Institut Euro-Méditerranéen d’Algerie : Online Courses</title>
+
+    <!-- Favicon -->
+    <link href="img/1.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Custom Styles for Navbar and Sections -->
+    <style>
+         body{
+            text-align: justify;
+        }
+        .navbar {
+            background-color: #ffffff; /* White background */
+            padding: 0.5rem 1rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            position: fixed; /* Fixed position for navbar */
+            top: 0;
+            width: 100%; /* Full width */
+            z-index: 1050; /* Ensure it stays on top of other elements */
+        }
+        .navbar-brand img {
+            height: 60px;
+        }
+        .navbar-nav .nav-link {
+            color: #333333; /* Dark text for nav links */
+            margin-right: 1rem;
+            font-size: 16px;
+            font-weight: 500;
+            position: relative;
+        }
+        .navbar-nav .nav-link:hover, .navbar-nav .nav-link.active {
+            color: #0033cc; /* Blue color for active and hovered links */
+            text-decoration: none;
+        }
+        .navbar-nav .nav-link.active::after {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: #0033cc; /* Blue underline for active links */
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+        }
+        .navbar-toggler {
+            border-color: #333333; /* Dark border for toggler */
+        }
+        .navbar-toggler-icon {
+            background-color: #333333; /* Dark icon for toggler */
+        }
+        .section {
+            position: fixed;
+            top: 70px; /* Adjusted to avoid overlapping the navbar */
+            left: 0;
+            width: 100%;
+            background-color: #ffffff; /* White background for section */
+            padding: 20px 0; /* Reduced padding */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: none; /* Initially hidden */
+            z-index: 1050; /* Make sure it appears above other elements */
+            border-top: 4px solid #0033cc; /* Blue border at top */
+            max-height: 300px; /* Limit height */
+            overflow-y: auto; /* Enable scrolling if content exceeds max-height */
+        }
+        .section .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .section h5 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: 600;
+            color: #0033cc; /* Dark blue color for headings */
+            padding-left: 20px;
+        }
+        .section ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        .section ul li {
+            margin-bottom: 10px;
+            padding-left: 25px;
+        }
+        .section ul li a {
+            color: #333333; /* Dark text for links */
+            text-decoration: none;
+        }
+        .section ul li a:hover {
+            color: #0033cc; /* Blue text on hover */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+     
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <img src="img/1.png" alt="Logo">
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto">
+        
+              <a href="#" class="nav-link dropdown-toggle" id="quiSommesToggle">QUI SOMMES NOUS</a>
+                <a href="#" class="nav-link dropdown-toggle" id="formationsToggle">FORMATION</a>
+                          <!-- Navbar End 
+               <a href="#" class="nav-link dropdown-toggle" id="conseilToggle"></a>
+                <a href="testim.html" class="nav-item nav-link"> Événements</a>-->
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+               <a href="login.html" class="nav-item nav-link"><i ></i></a>
+                <a href="#" class="nav-item nav-link">
+                    <div id="google_translate_element"></div>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Formations Section Start -->
+    <div id="formationsSection" class="section">
+        <div class="container">
+            <h5>Executive education et formation professionnelle </h5>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul>
+                        <li><a href="Langues.html"> Langues  </a></li>
+                        <li><a href="Digital et culture digitale.html">Digital et culture digitale </a></li>
+                        <li><a href="Communication.html">Communication </a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                        <li><a href="Commerce et finance.html">Commerce et finance </a></li>
+                        <li><a href="Développement durable et transition énergétique.html">Développement durable et transition énergétique </a></li>
+                        <li><a href="Management.html">Management </a></li>
+                       
+                    </ul>
+                </div>
+            </div>
+               <!--    <h5>Formation académique </h5>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul>
+                        <li><a href="#">Licence en sciences humaines et sociales </a></li>
+                        <li><a href="#">Licence en développement durable </a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+     Formations Section End -->
+        </div>
+    </div>
+    <!-- Qui Sommes Nous Section Start -->
+    <div id="quiSommesSection" class="section">
+        <div class="container">
+            <h5>QUI SOMMES NOUS</h5>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Qui sommes-nous ?</a></li>
+                        <li><a href="index.html">Mot de la fondatrice</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Nos valeurs et engagements</a></li>
+                        <li><a href="t.html">Équipe</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- Qui Sommes Nous Section End -->
+
+    <!-- Conseil Section Start -->
+    <div id="conseilSection" class="section">
+        <div class="container">
+            <h5></h5>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul>
+                        <li><a href="#">Conseil des ministres</a></li>
+                        <li><a href="#">CONSEIL strategie</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                        <li><a href="#">Testimonial</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Conseil Section End -->
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var formationsToggle = document.getElementById('formationsToggle');
+            var quiSommesToggle = document.getElementById('quiSommesToggle');
+            var conseilToggle = document.getElementById('conseilToggle');
+            var formationsSection = document.getElementById('formationsSection');
+            var quiSommesSection = document.getElementById('quiSommesSection');
+            var conseilSection = document.getElementById('conseilSection');
+
+            formationsToggle.addEventListener('click', function () {
+                formationsSection.style.display = formationsSection.style.display === 'block' ? 'none' : 'block';
+                quiSommesSection.style.display = 'none';
+                conseilSection.style.display = 'none';
+            });
+
+            quiSommesToggle.addEventListener('click', function () {
+                quiSommesSection.style.display = quiSommesSection.style.display === 'block' ? 'none' : 'block';
+                formationsSection.style.display = 'none';
+                conseilSection.style.display = 'none';
+            });
+
+            conseilToggle.addEventListener('click', function () {
+                conseilSection.style.display = conseilSection.style.display === 'block' ? 'none' : 'block';
+                formationsSection.style.display = 'none';
+                quiSommesSection.style.display = 'none';
+            });
+
+            document.addEventListener('click', function (event) {
+                if (!formationsToggle.contains(event.target) && !formationsSection.contains(event.target)) {
+                    formationsSection.style.display = 'none';
+                }
+                if (!quiSommesToggle.contains(event.target) && !quiSommesSection.contains(event.target)) {
+                    quiSommesSection.style.display = 'none';
+                }
+                if (!conseilToggle.contains(event.target) && !conseilSection.contains(event.target)) {
+                    conseilSection.style.display = 'none';
+                }
+            });
+        });
+    </script>
+
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary py-5 mb-5 page-header">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 class="display-3 text-white animated slideInDown"> <br> Nos Équipes</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a class="text-white" href="index.html">Accueil</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Nos Équipes</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+
+<!-- Team Section Start -->
+<div class="container-fluid py-5">
+    <div class="container">
+        
+        <div class="row g-4">
+            <!-- Yasmina Touaibia -->
+            <div class="col-md-12 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item d-flex align-items-center">
+                    <div class="team-img">
+                        <img src="img/yasmina-touaibia.jpg" alt="Yasmina Touaibia" class="img-fluid rounded-circle" style="width: 120px; height: 120px;">
+                    </div>
+                    <div class="team-text shadow-box ms-3">
+                        <h4>Yasmina Touaibia</h4>
+                        <p>Docteure en droit et science politique, Yasmina Touaibia est la fondatrice et Directrice Générale de l'Institut EuroMéditerranéen d'Alger. Forte d'une longue et fructueuse expérience à l'Université Nice Côte d'Azur en tant qu'actrice du développement de la formation professionnelle, elle a dirigé le Campus Méditerranée-Moyen-Orient de Sciences Po Paris à Menton de 2019 à 2023. Yasmina Touaibia possède une expertise riche et diversifiée dans les domaines de la communication, du journalisme, de la formation, de l'enseignement et de la recherche. Passionnée et résiliente, elle met son énergie et ses compétences au service du développement du capital humain. Ancienne avocate au Barreau d'Alger, elle a également été chargée de mission à l'École du Journalisme de Nice, en charge du développement méditerranéen. Chercheuse associée au Centre d'études et de recherche en droit administratif, constitutionnel, financier et fiscal (CERDACFF) de l’Université de Nice Côte d’Azur, Yasmina Touaibia a publié plusieurs ouvrages, dont un sur l'Arabie Saoudite et un sur l'Égypte, témoignant de son intérêt pour la région méditerranéenne et pour ses cultures.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Nadir Yacine -->
+            <div class="col-md-12 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="team-item d-flex align-items-center">
+                    <div class="team-img">
+                        <img src="img/nadir.jpg" alt="Nadir Yacine" class="img-fluid rounded-circle" style="width: 120px; height: 120px;">
+                    </div>
+                    <div class="team-text shadow-box ms-3">
+                        <h4>Nadir Yacine</h4>
+                        <p> est un architecte et auteur passionné, formé à l'École Polytechnique d'Architecture et d'Urbanisme d'Alger. Installé en France depuis le début des années 2000, il a consacré vingt ans au management de projets urbains d'envergure. En 2022, il publie son premier roman, <i>Insularités</i> , qui explore les identités multiples de l'Algérie. Nadir Yacine a été également enseignant à Sciences Po Menton, où il a partagé son expertise en architecture musulmane en Méditerranée et a initié les étudiants à l'écriture. Sa carrière est marquée par un engagement envers la transmission des savoirs et la promotion de la diversité culturelle.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Lahcène Ould Abdesselam -->
+            <div class="col-md-12 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="team-item d-flex align-items-center">
+                    <div class="team-img">
+                        <img src="img/lahcene.jpg" alt="Lahcène Ould Abdesselam" class="img-fluid rounded-circle" style="width: 120px; height: 120px;">
+                    </div>
+                    <div class="team-text shadow-box ms-3">
+                        <h4>Lahcène Ould Abdesselam</h4>
+                        <p> est un expert en informatique avec plus de 20 ans
+                            d&#39;expérience. Spécialisé en cybersécurité et en ingénierie réseau, il a dirigé des projets de
+                            transformation numérique pour diverses entreprises. Passionné par l&#39;innovation, il croit en
+                            l&#39;importance de la technologie pour améliorer l&#39;efficacité des entreprises. Lahcène Ould Abdesselam
+                            est également reconnu pour ses compétences en management des ressources humaines IT et son
+                            engagement envers la transmission des connaissances et l&#39;éthique dans l&#39;usage des IA.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Sandrine Suardi Linotte -->
+            <div class="col-md-12 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="team-item d-flex align-items-center">
+                    <div class="team-img">
+                        <img src="img/sandrine.png" alt="Sandrine Suardi Linotte" class="img-fluid rounded-circle" style="width: 120px; height: 120px;">
+                    </div>
+                    <div class="team-text shadow-box ms-3">
+                        <h4>Sandrine Suardi Linotte</h4>
+                        <p> est une professionnelle dynamique et innovante, avec un fort
+                            intérêt pour la communication et la recherche. Docteure d’État en droit depuis 2010, aujourd’hui
+                            
+                            actrice, elle a également obtenu des diplômes en hypnose éricksonienne, réflexologie et savoir-
+                            éthologique. Adaptable et polyvalente, elle a su diversifier ses compétences pour exceller dans divers
+                            domaines, tout en maintenant un engagement constant envers l’excellence et le développement
+                            personnel.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Fatah Ouazani -->
+            <div class="col-md-12 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="team-item d-flex align-items-center">
+                    <div class="team-img">
+                        <img src="img/fatah.png" alt="Fatah Ouazani" class="img-fluid rounded-circle" style="width: 120px; height: 120px;">
+                    </div>
+                    <div class="team-text shadow-box ms-3">
+                        <h4>Fatah Ouazani</h4>
+                        <p> est un économiste et chercheur reconnu, actuellement président du
+                            Réseau Algérien des Economistes (REAGE). Il est spécialisé dans les questions de développement
+                            économique et social en Algérie et dans la région MENA. Fatah Ouazani a publié de nombreux articles et
+                            études sur les politiques économiques et les réformes structurelles. Il est également un conférencier
+                            apprécié, partageant son expertise lors de divers forums internationaux. Son engagement pour le
+                            développement durable et l&#39;innovation économique fait de lui une figure influente dans son
+                            domaine.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Aïssa Kadri -->
+            <div class="col-md-12 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="team-item d-flex align-items-center">
+                    <div class="team-img">
+                        <img src="img/aissa.jpg" alt="Aïssa Kadri" class="img-fluid rounded-circle" style="width: 120px; height: 120px;">
+                    </div>
+                    <div class="team-text shadow-box ms-3">
+                        <h4>Aïssa Kadri</h4>
+                        <p> est professeur émérite de sociologie à l&#39;Université Paris 8 et directeur de
+                            l&#39;Institut Maghreb Europe. Ses recherches se concentrent sur les systèmes éducatifs et les migrations
+                            au Maghreb, avec un intérêt particulier pour les intellectuels, les mouvements sociaux et les droits de
+                            l&#39;Homme. Auteur de nombreux ouvrages et articles, il a grandement contribué à la sociologie de
+                            l&#39;éducation et de l&#39;immigration. Aïssa Kadri est reconnu pour son engagement académique et son
+                            influence dans les études maghrébines.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Meriem Belkaïd -->
+            <div class="col-md-12 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="team-item d-flex align-items-center">
+                    <div class="team-img">
+                        <img src="img/meriem.png" alt="Meriem Belkaïd" class="img-fluid rounded-circle" style="width: 120px; height: 120px;">
+                    </div>
+                    <div class="team-text shadow-box ms-3">
+                        <h4>Meriem Belkaïd</h4>
+                        <p>est professeure associée en études francophones et postcoloniales à
+                            Bowdoin College aux États-Unis. Formée en littérature et en sciences politiques, elle se spécialise
+                            dans le cinéma et la littérature contemporaine d&#39;Afrique du Nord. Meriem est l&#39;autrice de plusieurs
+                            ouvrages, dont un sur le documentaire algérien contemporain. Elle a également enseigné à Bates
+                            College et a une expérience riche et éclectique qui valorise son approche interdisciplinaire. Son
+                            parcours académique et ses recherches témoignent de son engagement pour la diversité culturelle et
+                            l&#39;anticonformisme social.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Ahlam Boumansour -->
+            <div class="col-md-12 wow fadeInUp" data-wow-delay="0.8s">
+                <div class="team-item d-flex align-items-center">
+                    <div class="team-img">
+                
+                       <img src="img/photo-inconnu-femme.png" alt="Ahlam Boumansour" class="img-fluid rounded-circle" style="width: 120px; height: 120px;">
+                    </div>
+                    <div class="team-text shadow-box ms-3">
+                        <h4>Ahlam Boumansour</h4>
+                        <p>est une professionnelle expérimentée dans le domaine du management et des
+                            affaires. Actuellement, elle occupe le poste de Responsable de l’administration SAV chez Socaram en
+                            Algérie, où elle travaille depuis plus de deux ans. Ahlam Boumansour a également une solide expérience en tant
+                            que Directrice des Ressources Humaines chez BKL Industries et Chargée d’affaires chez M&amp;C
+                            Business. Elle est reconnue pour ses compétences en leadership, gestion d’équipe, et amélioration
+                            des processus. Ahlam est à l’écoute de nouvelles opportunités dans les domaines du management
+                            des grands comptes, responsable des ventes, et responsable administratif.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Team Section End -->
+
+
+
+<style>
+.team-item {
+    display: flex;
+    align-items: flex-start; /* Align items at the start */
+}
+
+.team-img {
+    margin-right: 15px; /* Space between image and text */
+}
+
+.team-text {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #fff;
+    flex: 1; /* Ensure text takes up the remaining space */
+}
+</style>
+
+<style>
+.team-item {
+    position: relative;
+}
+
+.team-img {
+    margin-right: 15px;
+}
+
+.team-text {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+</style>
+
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <!-- Team End -->
+
+
+    
+<!-- Footer Start -->
+<div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-4 col-md-6">
+                <h4 class="text-white mb-3">Liens rapides</h4>
+                <p><a class="text-light" href="#formation">Qui sommes nous ?</a></p>
+                <p><a class="text-light" href="#formation">Formation</a></p>
+
+               
+                <p><a class="text-light" href="contact.html">Contact</a></p>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <h4 class="text-white mb-3">Contact</h4>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i> Cité 392 Logt Bd 19, entrée F.10, 35000</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+213 771 82 16 00</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i> contact@iema.dz</p>
+                <div class="d-flex pt-2">
+      
+                 <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/INSTITUTEUROMEDALGER/?locale=fr_FR"><i class="fab fa-facebook-f"></i></a>
+                           <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/iemalger/"><i class="fab fa-instagram"></i></a>
+                
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+            <h4 class="text-white mb-3">Souscrire à notre newsletter</h4>
+                
+                <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <form action="#">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="email" placeholder="Votre email" required>
+                        <button type="submit" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"><a href="mailto:contact@iema.dz@gmail.com">S'abonner</a></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="index.html">L’Institut Euro-Méditerranéen d’Algerie</a>, Tous droits réservés.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
